@@ -2,8 +2,9 @@
 
 1. Enable System Manager Run Command  
     Attach IAM policy(AmazonEC2RoleforSSM) to EMR EC2 Instance Profile.
-2. Deploy Lambda function.
-3. Config environment variables.
+2. Deploy Lambda function.  
+3. Config environment variables.  
+   Add an environment variable for the Lambda Function, key: "command", value: the shell command or script to execute.
 2. Deploy Lambda function
 3. Config environment variables
 4. Config CloudWatch Event to emit EMR events  
